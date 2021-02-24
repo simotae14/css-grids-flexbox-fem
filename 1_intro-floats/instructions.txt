@@ -11,3 +11,7 @@ Write the grid in mobile-first fashion.
 * Styles outside the media queries are universal and work to display the site in mobile format.
 
 * Two media queries are provided for "tablet" and "desktop" dimensions. Write styles that override the mobile layouts here.
+
+* in tablet the rows are: 1 row 2 over 2,
+
+* in mobile every box is on stack of each other
