@@ -8,7 +8,9 @@ ul {
 	border: 5px dotted red;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
+	justify-content: center;
+	height: 400px;
+	align-items: stretch;
 }
 li {
 	border: 5px solid #999;
