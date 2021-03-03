@@ -19,11 +19,20 @@ li {
 
 .flex2 {
 	border: 5px dashed blue;
-	order: 2;
 	flex: 2 1 25%;
 }
 
+.flex6 {
+	order: 1;
+}
 
+.flex3 {
+	order: 2;
+}
+
+.flex4 {
+	order: 10;
+}
 
 
 
