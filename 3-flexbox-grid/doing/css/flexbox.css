@@ -37,8 +37,10 @@ div img {
 }
 [class*="col-"] {
 	margin-left: 4%;
+	flex: 0 0 92%;
 }
-.col-1-of-4 {
+.col-1-of-4,
+.col-1-of-2 {
 	background-color: #ffc;
 }
 .col-2-of-4 {
@@ -52,20 +54,23 @@ div img {
 }
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
-
-}
-/* Desktop screen Sizes */
-@media only screen and (min-width: 768px) {
-	.col-1-of-4 {
-		flex: 0 0 20%;
-	}
+	.col-1-of-2,
 	.col-2-of-4 {
 		flex: 0 0 44%;
 	}
-	.col-3-of-4 {
-		flex: 0 0 68%;
-	}
+	.col-1-of-4,
+	.col-3-of-4,
 	.col-4-of-4 {
 		flex: 0 0 92%;
+	}
+}
+/* Desktop screen Sizes */
+@media only screen and (min-width: 768px) {
+	.col-1-of-4,
+	.col-1-of-2 {
+		flex: 0 0 20%;
+	}
+	.col-3-of-4 {
+		flex: 0 0 68%;
 	}
 }
