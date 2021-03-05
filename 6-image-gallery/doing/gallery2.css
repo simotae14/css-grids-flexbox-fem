@@ -18,14 +18,22 @@ ul {
 	display: flex;
 	flex-flow: row wrap;
 }
+/* give a column layout */
 li {
-	flex: auto;
+	flex: 0 0 100%;
 }
 img {
 	width: 100%;
 }
-@media (min-width: 550px) {
+@media (min-width: 605px) {
+	/* give a column layout */
+	li {
+		flex: 0 0 50%;
+	}
 }
-@media (min-width: 850px) {
-
+@media (min-width: 910px) {
+	/* give a column layout */
+	li {
+		flex: 0 0 33%;
+	}
 }
