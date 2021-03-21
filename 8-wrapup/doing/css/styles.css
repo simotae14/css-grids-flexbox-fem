@@ -24,6 +24,24 @@ article img {
   width: 100%;
   max-width: 250px;
 }
+img.responsive {
+  width: 100%;
+  max-width: 250px;
+}
+.button {
+  background-color: #c80060;
+  color: white;
+  padding: 0.3em 1em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+  border: 2px solid #c80060;
+}
+.button:hover {
+  color: #c80060;
+  background-color: white;
+}
 nav {
   background: url(../img/scallop.png) repeat-x;
 }
