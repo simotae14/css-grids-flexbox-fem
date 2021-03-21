@@ -175,10 +175,15 @@ ul.gallery {
       width: 97%;
       max-width: 767px;
   }
-div.row {
-  padding: 0 2em;
-}
- nav li,
+  div.row {
+    padding: 0 2em;
+  }
+  /* home page */
+  .heading {
+    background: url(../img/header-850.jpg) no-repeat;
+    height: 130px;
+  }
+  nav li,
   nav li:nth-child(even),
   nav li:nth-child(odd) {
     display: inline-block;
@@ -221,6 +226,10 @@ div.row {
   }
   h3 {
     font-size: 2em;
+  }
+  .heading {
+    background: url(../img/header-1200.jpg) no-repeat;
+    height: 183px;
   }
   div.row {
     padding: 0;
